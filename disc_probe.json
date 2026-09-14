@@ -1,0 +1,31 @@
+{
+  "cue_path": "I:\\Projects\\PSX-Ports-pilot\\_disc\\armored-core-project-phantasma\\Armored Core - Project Phantasma (USA).cue",
+  "cue_name": "Armored Core - Project Phantasma (USA).cue",
+  "bin_name": "Armored Core - Project Phantasma (USA).bin",
+  "track_count": 1,
+  "data_track_size": 454072416,
+  "data_track_md5": "91badb09339ee7e3b6d235609e8da1be",
+  "data_track_sha1": "0d3b5bbf3f860fad1482c242566b2ba890f314e2",
+  "data_track_crc32": "aaa1ef9c",
+  "boot_exe": "SLUS_006.70",
+  "serial": "SLUS-00670",
+  "serial_exe": "SLUS_006.70",
+  "volume_id": "SLUS-00670",
+  "display_name": "Armored Core: Project Phantasma",
+  "load_address": "0x80011000",
+  "entry_pc": "0x80011E94",
+  "text_size": "0x0002B000",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "1b8cdff66b85737755b650a44983af575a6768f21c91562389173b80bb11deb8",
+  "boot_exe_sha256": "aa7e5994b980fb1c502ee5da172cd3a24a237be290ceb39de436d8abd01b0e33",
+  "seed_count": 379,
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
